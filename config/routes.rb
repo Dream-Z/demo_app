@@ -1,5 +1,8 @@
 DemoApp::Application.routes.draw do
-  get "page/index"
+  resources :microposts
+  resources :users
+
+  #get "page/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
